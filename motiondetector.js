@@ -43,6 +43,7 @@ Module.register('motiondetector',{
 
 			DiffCamEngine.init({
 				video: video,
+				captureIntervalTime: 1000,
 				motionCanvas: canvas,
 				initSuccessCallback: function () {
 					DiffCamEngine.start();
@@ -70,9 +71,6 @@ Module.register('motiondetector',{
 					}
 					console.log('score:' + score);
 				}
-			});
-     		        
+			});     		        
 	},
-
-
 });
