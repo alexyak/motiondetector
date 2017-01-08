@@ -71,9 +71,6 @@ Module.register('motiondetector',{
 					}
 					console.log('score:' + score);
 				}
-			});
-     		        
+			});     		        
 	},
-
-
 });
